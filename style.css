@@ -38,7 +38,7 @@ body {
   }
   
   #resultado, #resultado2, #resultado3 {
-    color: #fff;
+    color: #646;
     font-size: 30px;
   }
   
@@ -49,7 +49,7 @@ body {
     width: 50%;
   }
   .div2a {
-    background-color: rgb(212, 212, 212);
+    background-color: #4644(212, 212, 212);
     border-radius: 30px;
   }
   
