@@ -27,11 +27,12 @@ function sumar() {
                                                                   }
 
                                                                   function potencia() {
-                                                                      // Ingresa aquí tu código.
-                                                                          // Ingresa aquí tu código.
-                                                                              // Ingresa aquí tu código. ¡¡¡Pista!!!, así se realiza la potencia: Math.pow(num1, num2);
-                                                                                  document.getElementById('resultado').innerText = resultado;
-                                                                                  }
+                                                                var num1 =parseFloat(document.getElementById('num1').value);
+                                                                var num2 =parseFloat(document.getElementById('num2').value);
+                                                                 var resultado = num1 ^ num2;
+                                                                            
+                                                                 document.getElementById('resultado').innerText = resultado;
+                                                                     }
 
 
                                                                                   function raiz() {
