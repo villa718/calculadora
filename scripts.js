@@ -29,7 +29,7 @@ function sumar() {
                                                                   function potencia() {
                                                                 var num1 =parseFloat(document.getElementById('num1').value);
                                                                 var num2 =parseFloat(document.getElementById('num2').value);
-                                                                 var resultado = num1 ^ num2;
+                                                                 var resultado = Math.pow (num1, num2);
                                                                             
                                                                  document.getElementById('resultado').innerText = resultado;
                                                                      }
@@ -50,8 +50,8 @@ function sumar() {
 
                                                                                                               function cleaner(){
                                                                                                                   document.getElementById('num1').value="";
-                                                                                                                      document.getElementById('num2').value="";
-                                                                                                                          document.getElementById('resultado').innerHTML="";
+                                                                                                                  document.getElementById('num2').value="";
+                                                                                                                       document.getElementById('resultado').innerHTML="";
                                                                                                                           }
 }
  
